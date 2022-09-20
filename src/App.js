@@ -29,7 +29,7 @@ import {Rodape} from "./components/Rodape";
     }
 
     render(){
-      const {busca, odas} = this.state;
+      const {odas} = this.state;
       return (
         <section className = "container">
           <Cabecalho/>
